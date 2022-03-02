@@ -1,0 +1,134 @@
+@import url(/css-utilities/fonts.css);
+
+:root {
+    --dark-font: #222222;
+    --blue-font: #00c8c8;
+    --white-font: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    min-width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top-bar {
+    width: 100%;
+    background-color: #333333;
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+}
+
+.top-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-font);
+    min-width: 60vw;
+}
+
+.top-bar-container > div:first-child {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.top-bar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.top-bar-right > div:first-child {
+    opacity: .5;
+}
+
+.top-bar-right-login {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.top-bar-right-login a {
+    text-decoration: none;
+    color: var(--white-font);
+}
+
+.top-bar-right-cart {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--blue-font);
+    padding: 1rem 1.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.fa-cart-shopping {
+    margin-right: 10px;
+}
+
+.fa-angle-down {
+    font-size: .7rem;
+}
+
+.currency-angle-down {
+    margin-left: 5px;
+}
+
+.cart-container {
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: red;
+    top: calc(100% + .25rem);
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.header-container {
+    background-size: cover;
+    background-position: center;
+}
+
+.home-header-container {
+    height: 100vh;
+    background-image: url(/images/home-header-image.png);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-center-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.sub-nav {
+    display: none;
+}
