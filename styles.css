@@ -82,6 +82,11 @@ body {
     cursor: pointer;
 }
 
+.top-bar-right > a {
+    text-decoration: none;
+    color: var(--white-font);
+}
+
 .top-bar-right-cart > i:first-child {
     margin-right: 10px;
 }
@@ -126,6 +131,10 @@ body {
     position: relative;
 }
 
+.lookbook-container > button:first-child > a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .header-nav {
     display: flex;
@@ -133,6 +142,11 @@ body {
     align-items: center;
     padding: 1rem 0;
     position: relative;
+}
+
+.header-nav > a:first-child {
+    text-decoration: none;
+    color: inherit;
 }
 
 .the-brand-nav {
@@ -1168,7 +1182,7 @@ body {
 }
 
 .stars-container > i {
-    color: #ded3aa;
+    color: #eed065;
 }
 
 .product-price {
