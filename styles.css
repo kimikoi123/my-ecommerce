@@ -1291,6 +1291,115 @@ body {
 
 
 
+/* Sign Up html */
+.signup-section {
+    display: grid;
+    place-content: center;
+    min-height: 50vh;
+    padding: 2rem 0;
+}
+
+.signup-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+    width: 50%;
+}
+
+.signin-form > div:first-child {
+    font-weight: 600;
+    opacity: .8;
+}
+
+.signin-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.signin-form input {
+    padding: .5rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.signin-submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin-submit-container > a {
+    text-decoration: none;
+    color: var(--blue-font);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    padding: 0 2rem;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+}
+
+.register-form > div:first-child {
+    font-weight: 600;
+}
+
+.register-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.register-form input {
+    padding: .5rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.register-form input[type="checkbox"] {
+    transform: scale(1.3);
+    border-radius: 5rem;
+}
+
+.register-checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.register-create-account-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-create-account-container > div {
+    max-width: 230px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-create-account-container > div > a {
+    text-decoration: none;
+    color: var(--blue-font);
+    font-weight: 500;
+}
+
+
+
+
+
 
 
 
